@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="ingredients_activity_label">Ingredients Activity</string>
+    <string name="recipe_name_placeholder">Recipe Name Placeholder</string>
+    <string name="action_settings" />
+    <string name="first_fragment_label" />
+    <string name="second_fragment_label" />
+    <string name="baking_recipes_activity_label">Baking Recipes</string>
+    <string name="baking_ingredients_activity_label" />
+</resources>

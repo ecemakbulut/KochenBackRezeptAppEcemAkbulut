@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/marble"
+    tools:context=".AddRecipeActivity">
+
+    <EditText
+        android:id="@+id/editTextRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rezeptname"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zutaten"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPreparation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zubereitung"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FDCEFF"
+            android:text="Zurück"
+            android:layout_gravity="bottom"
+            android:textColor="#606060" />
+
+        <Button
+            android:id="@+id/buttonAddRecipe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FDCEFF"
+            android:layout_gravity="bottom"
+            android:text="Rezept hinzufügen"
+            android:textColor="#606060" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonBack" type="id" />
+    <item name="buttonRemoveIngredients" type="id" />
+    <item name="listViewIngredients" type="id" />
+    <item name="listViewIngredient" type="id" />
+    <item name="buttonBakingRecipes" type="id" />
+</resources>
